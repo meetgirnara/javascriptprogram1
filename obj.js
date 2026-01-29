@@ -40,7 +40,7 @@ console.log(Object.keys(student));
 console.log(Object.values(student));
 console.log(Object.entries(student));
 
-//
+// destructuring assignment
 
 const user ={
     name : "Meet",
