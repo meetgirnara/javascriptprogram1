@@ -81,3 +81,22 @@ console.log("Reverse():", sortArr.reverse());
 let nestedArr = [1, [2, 3], [4, 5]];
 console.log("Default Nested Array:", nestedArr);
 console.log("Flat():", nestedArr.flat());
+
+//array destructuring
+
+let array = [10, 20, 30, 40 , 50];
+const [a, b, c] = array;
+console.log("a:", a);
+console.log("b:", b);
+console.log("c:", c);
+
+let array1 = [10, 20, 30, 40];
+const [x, , z] = array1;
+console.log("x:", x);
+console.log("z:", z);
+
+// rest operator
+const num1 = [1, 2, 3, 4, 5];
+const [first, ...rest] = num1;
+console.log("first:", first);
+console.log("rest:", rest);
