@@ -1,9 +1,10 @@
-//Datatypes in JavaScript
+// Datatypes , Functions , Conditions , Operators , Arrow Functions , Comparison Operators in JavaScript
+// JavaScript Data Types
 //1. primitive data types
 // Number
 // String
 // Boolean
-// Undefined
+// Undefined 
 // Null
 // Symbol
 // BigInt
@@ -59,6 +60,7 @@ function  func() {
 };
 console.log(func()); // Output: Have a nice day!
 
+// Functions with conditional statements
 function showvalues(value) {
     console.log("this is value :", num);
     if (value== 20) {
